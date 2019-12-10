@@ -9,3 +9,16 @@ $('like-btn').on('ajax:success', function() {
   .html('<% @post.get_likes.size %> 👍');
   $(this).closest('like-btn').html()('Like');
 })
+
+$('.PSM').on('click', function() {
+  if (thermostat.isPowerSavingOn() === true) {
+    thermostat.switchPowerSavingOff();
+    console.log('switching off')
+    $('.PSM').text('Power Saving Mode: OFF');
+  }
+  else {
+    thermostat.switchPowerSavingOn();
+    console.log('swithing on')
+    $('.PSM').text('Power Saving Mode: ON');
+  }
+});
