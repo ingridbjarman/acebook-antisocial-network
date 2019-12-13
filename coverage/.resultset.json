@@ -583,19 +583,19 @@
       "/Users/bibbycodes/Desktop/ace/acebook-antisocial-network/app/helpers/post_helper.rb": [
         1,
         1,
-        0,
+        1,
         null,
         null,
         1,
-        0,
+        1,
         0,
         null,
-        0,
+        1,
         null,
         null,
         null,
         1,
-        0,
+        1,
         null,
         null
       ],
@@ -690,8 +690,6 @@
       "/Users/bibbycodes/Desktop/ace/acebook-antisocial-network/spec/features/user_can_submit_posts_spec.rb": [
         1,
         null,
-        1,
-        1,
         1,
         1,
         1,
@@ -809,11 +807,11 @@
         1,
         null,
         1,
-        1,
-        1,
-        1,
-        1,
-        1,
+        2,
+        2,
+        2,
+        2,
+        2,
         null,
         null
       ],
@@ -901,7 +899,7 @@
         1,
         null,
         1,
-        1,
+        0,
         null,
         null,
         1,
@@ -911,9 +909,12 @@
         null,
         1,
         2,
+        2,
+        2,
         null,
         null,
         1,
+        0,
         0,
         null,
         null,
@@ -970,6 +971,6 @@
         null
       ]
     },
-    "timestamp": 1576164410
+    "timestamp": 1576251696
   }
 }
